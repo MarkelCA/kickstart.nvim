@@ -19,6 +19,7 @@ return {
 
     -- Installs the debug adapters for you
     'williamboman/mason.nvim',
+    'williamboman/mason-lspconfig.nvim',
     'jay-babu/mason-nvim-dap.nvim',
 
     -- Add your own debuggers here
