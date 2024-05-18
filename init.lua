@@ -6,12 +6,8 @@ require 'custom.autocmd'
 require 'custom.lazy'
 
 require('lazy').setup({
-  {
-    'mbbill/undotree',
-    config = function()
-      print 'blabla'
-    end,
-  },
+  { 'easymotion/vim-easymotion' },
+  { 'mbbill/undotree' },
   {
     'ThePrimeagen/harpoon',
     dependencies = {
