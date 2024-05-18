@@ -1,4 +1,4 @@
-vim.keymap.set('n', '<leader>nt', vim.cmd.Neotree)
+vim.keymap.set('n', '<leader>nt', vim.cmd.Neotree, { desc = '[N]eo [T]ree' })
 
 require('neo-tree').setup {
   filesystem = {

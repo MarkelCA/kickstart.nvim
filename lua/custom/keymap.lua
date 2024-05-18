@@ -1,10 +1,10 @@
-vim.keymap.set('n', '<leader>w', vim.cmd.w)
-vim.keymap.set('n', '<leader>q', vim.cmd.q)
+vim.keymap.set('n', '<leader>w', vim.cmd.w, { desc = '[W]rite file' })
+vim.keymap.set('n', '<leader>q', vim.cmd.q, { desc = '[Q]uit file' })
 
--- Center view
-vim.keymap.set('n', '<leader>m', 'zz')
+-- Center cursor
+vim.keymap.set('n', '<leader>m', 'zz', { desc = 'Center cursor' })
 -- New tab
-vim.keymap.set('n', '<leader>rc', vim.cmd.tabnew)
+vim.keymap.set('n', '<leader>rc', vim.cmd.tabnew, { desc = 'New tab' })
 --
 -- Diagnostic keymaps
 vim.keymap.set('n', '[d', vim.diagnostic.goto_prev, { desc = 'Go to previous [D]iagnostic message' })

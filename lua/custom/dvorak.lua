@@ -1,3 +1,4 @@
+-- These the keymaps for rebinding the Dvorak layout
 -- Down
 vim.keymap.set({ 'n', 'v' }, 'h', 'j')
 vim.keymap.set({ 'n', 'v' }, 'u', 'j')
