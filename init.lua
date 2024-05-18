@@ -160,13 +160,7 @@ require('lazy').setup({
       vim.cmd.hi 'Comment gui=none'
     end,
   },
-  {
-    'APZelos/blamer.nvim',
-    config = function()
-      vim.g.blamer_enabled = 1
-      vim.keymap.set('n', '<leader>bt', '<cmd>BlamerToggle<CR>', { noremap = true, silent = true, desc = '[B]lame [T]oggle' })
-    end,
-  },
+  { 'APZelos/blamer.nvim' },
   -- Highlight todo, notes, etc in comments
   { 'folke/todo-comments.nvim', event = 'VimEnter', dependencies = { 'nvim-lua/plenary.nvim' }, opts = { signs = false } },
   -- Collection of various small independent plugins/modules
