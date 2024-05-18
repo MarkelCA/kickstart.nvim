@@ -22,11 +22,3 @@ vim.keymap.set({ 'n', 'v' }, ';', 'n')
 vim.keymap.set({ 'n', 'v' }, '<C-;>', 'N')
 -- Remove highlighted text
 vim.keymap.set({ 'n', 'v' }, '<leader>h', vim.cmd.noh)
-
-vim.keymap.set('n', '<leader>w', vim.cmd.w)
-vim.keymap.set('n', '<leader>q', vim.cmd.q)
-
--- Center view
-vim.keymap.set('n', '<leader>m', 'zz')
--- New tab
-vim.keymap.set('n', '<leader>rc', vim.cmd.tabnew)
