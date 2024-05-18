@@ -7,6 +7,12 @@ require 'custom.lazy'
 
 require('lazy').setup({
   {
+    'mbbill/undotree',
+    config = function()
+      print 'blabla'
+    end,
+  },
+  {
     'ThePrimeagen/harpoon',
     dependencies = {
       'nvim-lua/plenary.nvim',
