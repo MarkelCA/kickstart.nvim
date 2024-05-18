@@ -7,6 +7,12 @@ require 'custom.lazy'
 
 require('lazy').setup({
   {
+    'ThePrimeagen/harpoon',
+    dependencies = {
+      'nvim-lua/plenary.nvim',
+    },
+  },
+  {
     'nvim-neo-tree/neo-tree.nvim',
     version = '*',
     dependencies = {
