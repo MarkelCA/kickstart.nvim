@@ -6,6 +6,7 @@ require 'custom.autocmd'
 require 'custom.lazy'
 
 require('lazy').setup({
+  { 'tpope/vim-fugitive' },
   { 'easymotion/vim-easymotion' },
   { 'mbbill/undotree' },
   {
